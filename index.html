@@ -86,7 +86,7 @@
             <h2 class="index-content-title">Записаться</h2>
             <p>Укажите желаемую дату и время и мы свяжемся с вами для
             подтверждения брони</p>
-            <form action="index.php" class="appointment-form" method="post">
+            <form action="/index.html" class="appointment-form" method="post">
               <input type="text" placeholder="Дата">
               <input type="text" placeholder="Время">
               <input type="text" placeholder="Ваше имя">
@@ -116,5 +116,16 @@
           </section>
         </div>
       </footer>
+      <div class="popup-login">
+        <h3>Личный кабинет</h3>
+        <p>Введите пожалуйста свой логин и пароль</p>
+        <form action="/index.html">
+          <input type="text" name="login" placeholder="Логин">
+          <input type="password" name="password" placeholder="Пароль">
+          <input type="checkbox" id="checkbox">
+          <label for="checkbox">Запомните меня</label>
+          <button type="submit">Войти</button>
+        </form>
+      </div>
 </body>
 </html>

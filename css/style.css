@@ -55,7 +55,25 @@ button{
   cursor: pointer;
 }
 /* border: 1px solid red; */
-
+/*Pop-up login Form*/
+.popup-login{
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  width: 300px;
+  margin-left: -230px;
+  padding: 45px 80px;
+  background: #ffffff;
+  color: #000000;
+}
+.popup-login h3{
+  margin:0;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+.popup-login p{
+  margin:0;
+}
 /* Header*/
 
 .main-header{
